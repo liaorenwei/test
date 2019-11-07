@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class App {
-
+//测试更新过期
 	@Bean
 	public ExecutorService  createExecutorService() {
 		return Executors.newFixedThreadPool(2);
