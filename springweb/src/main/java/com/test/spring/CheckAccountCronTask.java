@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CheckAccountCronTask extends CronTask {
 
+	//测试提交带吗
 	@Override
 	@Autowired
 	public void setCronTab(CronTab cronTab) {
